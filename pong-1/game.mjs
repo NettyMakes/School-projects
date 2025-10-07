@@ -214,8 +214,8 @@ function dealWithColision(paddle, ball) {
 
   if (changeVector) {
 
-    //Angle Handling - Yes i know its scuffed, its 11pm and im needing sleep
-
+    //Angle Handling 
+    
     let ballToPaddleCenterDist = (paddleTop + paddle.height/2) - ball.y;
     console.log("Distance: " + ballToPaddleCenterDist);
 
